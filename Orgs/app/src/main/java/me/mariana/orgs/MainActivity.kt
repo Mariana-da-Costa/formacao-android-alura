@@ -8,10 +8,8 @@ import android.widget.Toast
 class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Toast.makeText(this, "Bem vindo!", Toast.LENGTH_LONG).show()
-
-        val view = TextView(this)
-        view.text = "Criando layout manualmente"
         setContentView(R.layout.activity_main)
+        val nome = findViewById<TextView>(R.id.tv_nome)
+        nome.text = "Cesta de frutas"
     }
 }

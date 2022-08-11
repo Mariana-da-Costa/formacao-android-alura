@@ -1,9 +1,9 @@
-package me.mariana.orgs
+package me.mariana.orgs.ui.view
 
 import android.app.Activity
 import android.os.Bundle
 import android.widget.TextView
-import android.widget.Toast
+import me.mariana.orgs.R
 
 class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
